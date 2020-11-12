@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>checkout-page-master</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>
+    <h1>Checkout</h1>
+  </header>
+
+  <main class="content">
+    <section class="content__items">
+      <div class="items">
+        <img src="img/photo1.png" alt="">
+        <div class="info-item">
+          <div class="info-header">
+            <p class="title-item">Levi Shoes</p>
+            <div class="price">
+              <p class="price-new">$74.99</p>
+              <p class="price-old">$124.99</p>
+            </div>
+          </div>
+          <div class="number-items">
+            <span class="material-icons icon">
+              remove
+            </span>
+            <p>1</p>
+            <span class="material-icons icon">
+              add
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="items">
+        <img src="img/photo2.png" alt="">
+        <div class="info-item">
+          <div class="info-header">
+            <p class="title-item">Vintage Backbag</p>
+            <div class="price">
+              <p class="price-new">$54.99</p>
+              <p class="price-old">$94.99</p>
+            </div>
+          </div>
+          <div class="number-items">
+            <span class="material-icons icon">
+              remove
+            </span>
+            <p>1</p>
+            <span class="material-icons icon">
+              add
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-price-total">
+        <div class="shipping">
+          <p>shipping</p>
+          <span class="shippping-price">$19</span>
+        </div>
+        <div class="total">
+          <p>Total</p>
+          <span class="total-price">$148.98</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="content__information">
+      <form action="" method="post">
+        <fieldset>
+          <h2>Contact information</h2>
+
+          <label for="e-mail">E-mail</label>
+          <div class="content-input">
+            <span class="material-icons icon">
+              email
+            </span>
+            <input type="email" name="e-mail" id="" placeholder="Enter your email...">
+          </div>
+
+          <label for="phone">Phone</label>
+          <div class="content-input">
+            <span class="material-icons icon">
+              phone
+            </span>
+            <input type="tel" name="phone" id="" placeholder="Enter your Phone...">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <h2>Shipping address</h2>
+
+          <label for="fullname">Full name</label>
+          <div class="content-input">
+            <span class="material-icons icon">
+              account_circle
+            </span>
+            <input type="text" name="fullname" id="" placeholder="Rodney Cotton">
+          </div>
+
+          <label for="address">Address</label>
+          <div class="content-input">
+            <span class="material-icons icon">
+              home
+            </span>
+            <input type="text" name="address" id="" placeholder="Your address..">
+          </div>
+
+          <label for="city">City</label>
+          <div class="content-input">
+            <span class="material-icons icon">
+              location_city
+            </span>
+            <input type="text" name="city" id="" placeholder="Your city..">
+          </div>
+
+          <div class="content-country">
+            <div class="country">
+              <label for="country">Country</label>
+              <div class="content-input">
+                <span class="material-icons icon">
+                  location_city
+                </span>
+                <!-- <input type="text" name="country" id="" placeholder="Your country.."> -->
+                <select name="country">
+                  <option>Your country..</option>
+                  <option value="Cutiriba">Curitiba</option>
+                  <option value="Rio">Rio de Janeiro</option>
+                </select>
+              </div>
+            </div>
+            <div class="postalcode">
+              <label for="postal">Postal code</label>
+              <div class="content-input">
+                <span class="material-icons icon">
+                  markunread_mailbox
+                </span>
+                <input type="text" name="postal" id="" placeholder="Your postal code..">
+              </div>
+            </div>
+          </div>
+
+          <div class="saveinformation">
+            <div class="content-checkbox">
+              <input type="checkbox" name="" id="">
+              <span>&nbsp;</span>
+            </div>
+            <p>Save this information for next time</p>
+          </div>
+
+        </fieldset>
+
+        <button type="submit">Continue</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Diogo Miaguy @ DevChallenges.io</p>
+  </footer>
+
+</body>
+
+</html>
